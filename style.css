@@ -6,7 +6,7 @@
       }  
       body {background-color: blue;}
       header {
-             padding: 32px;
+             padding: 32px var(--subcor);
              border-bottom: 1px solid rgb(15, 53, 122);
              background-color: rgb(6, 6, 37);}
       header div{text-align: center;}    
@@ -32,14 +32,20 @@ font-family: "Iosevka Charon", monospace;
 font-size: 42px; 
 line-height: 52px; 
 font-weight: bold; }
+
 #box h2 {
 font-size: 24px; 
 line-height: 34px; 
 font-weight: normal; 
 margin-top: 8px; 
 opacity: 0.8;}
+
 #box p {
 max-width: 500px; 
 margin: 32px auto; 
 font-size: 24px; 
 line-height: 34px;}
+
+:root{
+  --subcor: blue;
+ }
