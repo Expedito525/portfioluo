@@ -23,6 +23,7 @@ font-family: "Iosevka Charon", monospace;
     #box{
         text-align: center;
         padding: 32px;
+        color: #ffffff;
     }
     #box img{border: 5px solid #044b8d;
              border-radius: 50%;
@@ -47,7 +48,7 @@ font-size: 24px;
 line-height: 34px;}
 
 :root{
-  --subcor: blue;
+  --subcor: rgb(81, 113, 255);
  }
 
  header {
